@@ -83,6 +83,6 @@ public class MainActivity extends AppCompatActivity {
     {
         Gson gson = new Gson();
         MovieList movieList = gson.fromJson(response, MovieList.class);
-        println("영화 정보의 수 : " + movieList.boxOfficeReasult.dailyBoxOfficeList.size());
+        println("영화 정보의 수 : " + movieList.boxOfficeResult.dailyBoxOfficeList.size());
     }
 }
